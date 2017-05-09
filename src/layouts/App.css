@@ -1,0 +1,44 @@
+.main{
+    position:absolute;
+    left:150px;
+    right:0px;
+    top:0px;
+    bottom:0;
+    /*background-color:blanchedalmond;*/
+    padding:20px 40px 40px;
+}
+
+.app{
+    position:relative;
+    height: 100%;
+
+}
+.content{
+    position:absolute;
+    width:100%;
+}
+
+/*-enter是进入的时候的初始状态*/
+.app-enter {
+    opacity: 0.01;
+    transition: all 1000ms ease;
+    transform:translate3d(100%,0,0)
+}
+/*-enter-active是进入时候的结束状态*/
+.app-enter.app-enter-active {
+    opacity: 1;
+    transform:translate3d(0,0,0)
+}
+
+.app-leave {
+    opacity: 1;
+    transition: all 500ms ease;
+    transform:translate3d(100%,0,0)
+}
+
+.app-leave.app-leave-active {
+    opacity: 0.01;
+
+    transform:translate3d(0,0,0)
+}
+

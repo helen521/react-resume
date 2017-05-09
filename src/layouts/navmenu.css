@@ -1,0 +1,32 @@
+.layout-aside{
+    width:150px;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    background-color:#404040;
+    transition:all 3s
+}
+
+ul li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.nav-text{
+    fron-size:16px;
+    color:#fff;  
+}
+
+.aside-action{
+    width:150px;
+    height:42px;
+    line-height:42px;
+    position:absolute;
+    bottom:0px;
+    color:#fff;
+    background-color: #656565;
+    cursor:pointer;
+    text-align:center ;
+}
